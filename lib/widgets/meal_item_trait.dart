@@ -14,9 +14,9 @@ final String label;
   Widget build(BuildContext context) {
       return Row(children: [
         Icon(
-          icon, 
-          size:17,
-         color: Colors.white,
+            icon, 
+            size:17,
+            color: Colors.white,
         ),
         const SizedBox(width: 6),
         Text(
