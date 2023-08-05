@@ -25,7 +25,9 @@ class TabsScreen  extends StatefulWidget {
         var  activePagetitle  = 'Categories';
 
         if(_selectedPageIndex == 1) {
-            activePage =  MealsScreen(meals: []);
+
+            activePage = const MealsScreen(meals: []);
+
             activePagetitle = 'Your Favorites';
         }
 
