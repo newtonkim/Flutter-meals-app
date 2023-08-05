@@ -24,7 +24,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: theme,
       // home: const CategoriesScreen()
-      home: CategoriesScreen()
+      home:const CategoriesScreen()
     );
   }
 } 
