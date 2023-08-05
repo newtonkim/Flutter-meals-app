@@ -16,7 +16,7 @@ class CategoriesScreen extends StatelessWidget {
       MaterialPageRoute(
         builder: (ctx) => MealsScreen(
           title: category.title,
-          meals: filteredMeals, 
+          meals: filteredMeals,
         ),
       ),
     );
@@ -24,11 +24,7 @@ class CategoriesScreen extends StatelessWidget {
 
   @override
   Widget build(context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Select a Category Please'),
-      ),
-      body: GridView(
+    return  GridView(
         padding: const EdgeInsets.all(24),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
@@ -46,7 +42,6 @@ class CategoriesScreen extends StatelessWidget {
               },
             )
         ],
-      ),
-    );
+      );
   }
 }
